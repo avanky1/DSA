@@ -10,7 +10,7 @@ Node *createNode(int data)
 {
     Node *newNode = new Node();
     newNode->data = data;
-    newNode->next = nullptr;
+    newNode->next = NULL;
     return newNode;
 }
 
@@ -24,8 +24,6 @@ void displayList(Node *head)
     }
     cout << "nullptr" << endl;
 }
-
-
 
 int main()
 {
@@ -57,8 +55,6 @@ int main()
 
     cout << "The elements in the linked list are: ";
     displayList(head);
-
-    
 
     return 0;
 }
